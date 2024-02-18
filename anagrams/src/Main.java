@@ -4,7 +4,8 @@ import java.util.Scanner;
 public class Main {
     // This method checks if two given strings are anagrams.
     static boolean isAnagram(String a, String b) {
-        // Convert all letters in strings to lowercase.
+        
+        // Convert all letters in strings to lowercase for case-insensitive comparison.
         a = a.toLowerCase();
         b = b.toLowerCase();
 
